@@ -32,23 +32,47 @@ task:
           - /home/cirrus/.config:/home/cirrus/.config
           
   5gb1_script:
-    - wget http://speedtest-sgp1.digitalocean.com/5gb.test
+    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
+    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
+    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
+    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
+    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
     
   5gb2_script:
-    - wget http://speedtest-sgp1.digitalocean.com/5gb.test
-    
+    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
+    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
+    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
+    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
+    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
+
   5gb3_script:
-    - wget http://speedtest-sgp1.digitalocean.com/5gb.test
-    
+    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
+    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
+    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
+    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
+    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
+
   5gb4_script:
-    - wget http://speedtest-sgp1.digitalocean.com/5gb.test
-    
+    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
+    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
+    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
+    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
+    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
+
   5gb5_script:
-    - wget http://speedtest-sgp1.digitalocean.com/5gb.test
-    
+    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
+    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
+    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
+    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
+    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
+
   5gb6_script:
-    - wget http://speedtest-sgp1.digitalocean.com/5gb.test
-    
+    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
+    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
+    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
+    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
+    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
+
   # vanilla_build_script:
     # - mkdir ~/$rom_name
     # - cd ~/$rom_name
