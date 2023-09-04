@@ -32,7 +32,8 @@ task:
           - /home/cirrus/.config:/home/cirrus/.config
           
   vanilla_build_script:
-    - bash sync.sh
+    - wget http://hgd-speedtest-1.tele2.net/100GB.zip
+    - wget http://hgd-speedtest-1.tele2.net/100GB.zip
     
   # vanilla_build_script:
     # - mkdir ~/$rom_name
