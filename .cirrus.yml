@@ -21,6 +21,9 @@ task:
           - /home/cirrus/.config:/home/cirrus/.config
           
   vanilla_build_script:
+    - free -h
+    - du -sh
+    - df -h
     - mkdir ~/$rom_name
     - cd ~/$rom_name
     - rm -rf .repo/local_manifests
