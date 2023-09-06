@@ -7,7 +7,7 @@ env:
 task:
   name: "Snx-xR"
   timeout_in: 240m
-  use_compute_credits: $CIRRUS_BRANCH == 'main'
+  # use_compute_credits: $CIRRUS_BRANCH == 'main'
   container:
       # image: ubuntu:latest
       image: snaxpsycho/cirrus:latest
