@@ -4,21 +4,10 @@ env:
     rom_name: Nusantara
     device: lavender
 
-# arm_task:
-  # name: ARM_DEBUG_NTS
-  # arm_container:
-    # image: snaxpsycho/cirrus:latest #ubuntu:latest
-    # additional_containers:
-      # - name: mysql
-        # image: ubuntu:latest #snaxpsycho/cirrus:latest
-        # port: 3306
-        # cpu: 6.0
-        # memory: 28G
-    # build_script: bash sync.sh
-    
 task:
   name: "Snx-xR"
   timeout_in: 240m
+  use_compute_credits: $CIRRUS_BRANCH == 'main'
   container:
       # image: ubuntu:latest
       image: snaxpsycho/cirrus:latest
@@ -31,63 +20,21 @@ task:
           - /home/cirrus/ccache:/home/cirrus/ccache
           - /home/cirrus/.config:/home/cirrus/.config
           
-  5gb1_script:
-    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
-    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
-    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
-    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
-    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
-    
-  5gb2_script:
-    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
-    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
-    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
-    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
-    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
-
-  5gb3_script:
-    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
-    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
-    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
-    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
-    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
-
-  5gb4_script:
-    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
-    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
-    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
-    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
-    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
-
-  5gb5_script:
-    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
-    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
-    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
-    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
-    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
-
-  5gb6_script:
-    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
-    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
-    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
-    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
-    - wget https://sa.mirror-hub.workers.dev/0:/snx/AncientOS-R-Weeabo-v5.7-lavender-Rias_Gremory-20220107-1900-Vanilla.zip
-
-  # vanilla_build_script:
-    # - mkdir ~/$rom_name
-    # - cd ~/$rom_name
-    # - rm -rf .repo/local_manifests
-    # - repo init --depth=1 --no-repo-verify -u https://Sa-Sajjad:$ght@github.com/S-A-build/android_manifest_nusa.git -b battery -g default,-mips,-darwin,-notdefault
-    # - repo start 10 --all
-    # - git clone git@github.com:Sa-Sajjad/manifest.git --depth 1 -b hmp2 .repo/local_manifests
-    # - free -h
-    # - du -sh
-    # - df -h
-    # - repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j8
-    # - df -h
-    # - bash <(curl -s $script/notify.sh)
+  vanilla_build_script:
+    - mkdir ~/$rom_name
+    - cd ~/$rom_name
+    - rm -rf .repo/local_manifests
+    - repo init --depth=1 --no-repo-verify -u https://Sa-Sajjad:$ght@github.com/S-A-build/android_manifest_nusa.git -b battery -g default,-mips,-darwin,-notdefault
+    - repo start 10 --all
+    - git clone git@github.com:Sa-Sajjad/manifest.git --depth 1 -b hmp2 .repo/local_manifests
+    - free -h
+    - du -sh
+    - df -h
+    - repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j8
+    - df -h
+    - bash <(curl -s $script/notify.sh)
     # - bash <(curl -s $script/sync.sh)
-    # - bash <(curl -s $script/build.sh)
+    - bash <(curl -s $script/build.sh)
     
   # apps_up_script:
     # - set -e
